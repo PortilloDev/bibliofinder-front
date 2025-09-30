@@ -1,0 +1,370 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and"
+  },
+  "app": {
+    "name": "BookShelf",
+    "tagline": "Your intelligent personal library"
+  },
+  "navigation": {
+    "home": "Home",
+    "search": "Search Books",
+    "dashboard": "Dashboard",
+    "library": "My Library",
+    "import": "Import Excel",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Sign Out",
+    "login": "Sign In",
+    "register": "Sign Up"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Access your personal library",
+      "welcomeBack": "Welcome back",
+      "description": "Enter your credentials to access your account",
+      "email": "Email",
+      "password": "Password",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "Don't have an account?",
+      "registerHere": "Sign up here",
+      "continueWithGoogle": "Continue with Google",
+      "continueWithEmail": "Or continue with email",
+      "signingIn": "Signing in...",
+      "demo": {
+        "title": "To try the demo:",
+        "email": "demo@bookshelf.com",
+        "password": "any text"
+      },
+      "backToHome": "← Back to home"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join our community of readers",
+      "welcome": "Welcome!",
+      "description": "Create your free account to start organizing your books",
+      "name": "Full name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Minimum 6 characters",
+      "confirmPassword": "Confirm password",
+      "confirmPasswordPlaceholder": "Repeat your password",
+      "acceptTerms": "I accept the",
+      "terms": "terms and conditions",
+      "privacy": "privacy policy",
+      "hasAccount": "Already have an account?",
+      "loginHere": "Sign in here",
+      "continueWithGoogle": "Continue with Google",
+      "continueWithEmail": "Or create an account with email",
+      "creating": "Creating account...",
+      "benefits": {
+        "title": "By joining you get:",
+        "unlimited": "✓ Unlimited personal library",
+        "search": "✓ Search millions of books",
+        "notes": "✓ Personal notes and reviews",
+        "import": "✓ Import from Excel/CSV",
+        "stats": "✓ Reading statistics"
+      },
+      "backToHome": "← Back to home"
+    },
+    "messages": {
+      "loginSuccess": "Welcome back!",
+      "loginSuccessDesc": "Hello {{name}}, you have successfully signed in.",
+      "registerSuccess": "Account created successfully!",
+      "registerSuccessDesc": "Welcome {{name}}, your account has been created.",
+      "googleSuccess": "Connection successful!",
+      "googleSuccessDesc": "Welcome {{name}}, you have signed in with Google.",
+      "loginError": "Sign in error. Check your credentials.",
+      "registerError": "Error creating account. Try again.",
+      "googleError": "Error connecting with Google. Try again."
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "Organize, Discover and Enjoy",
+      "subtitle": "The ultimate platform to manage your personal library, discover new books and connect with a community passionate about reading.",
+      "startFree": "Start Free",
+      "exploreBooks": "Explore Books",
+      "noCredit": "No credit card required · 2-minute setup"
+    },
+    "stats": {
+      "booksAvailable": "Books Available",
+      "activeUsers": "Active Users",
+      "reviewsWritten": "Reviews Written",
+      "listsCreated": "Lists Created"
+    },
+    "features": {
+      "title": "Everything you need to be a better reader",
+      "subtitle": "Powerful tools and an intuitive experience designed for passionate readers like you.",
+      "organize": {
+        "title": "Organize your Library",
+        "description": "Create custom shelves: to read, reading, read, favorites and custom categories."
+      },
+      "search": {
+        "title": "Search and Discover",
+        "description": "Access millions of books from Google Books and Open Library. Find your perfect next read."
+      },
+      "notes": {
+        "title": "Notes and Reviews",
+        "description": "Add personal notes, write reviews and share your opinions with the community."
+      },
+      "import": {
+        "title": "Import from Excel",
+        "description": "Upload book lists from Excel or CSV with custom categories quickly and easily."
+      },
+      "stats": {
+        "title": "Reading Statistics",
+        "description": "Visualize your progress, pages read, books per year and maintain your reading habit."
+      },
+      "community": {
+        "title": "Reading Community",
+        "description": "Connect with other readers, discover recommendations and participate in literary discussions."
+      }
+    },
+    "books": {
+      "title": "Popular Books",
+      "subtitle": "Discover the most read and best rated books by our community.",
+      "exploreMore": "Explore More Books"
+    },
+    "cta": {
+      "title": "Ready to transform your reading experience?",
+      "subtitle": "Join thousands of readers who already organize and enjoy their books with BookShelf. It's free and always will be.",
+      "createAccount": "Create Free Account",
+      "exploreWithout": "Explore without Registration"
+    }
+  },
+  "search": {
+    "title": "Search Books",
+    "subtitle": "Explore millions of books from Google Books and Open Library",
+    "placeholder": "Search by title, author, ISBN...",
+    "searching": "Searching books...",
+    "types": {
+      "general": "General Search",
+      "title": "By Title",
+      "author": "By Author",
+      "isbn": "By ISBN",
+      "subject": "By Subject"
+    },
+    "languages": {
+      "all": "All languages",
+      "es": "Spanish",
+      "en": "English",
+      "fr": "French",
+      "de": "German",
+      "it": "Italian"
+    },
+    "sorting": {
+      "relevance": "Relevance",
+      "newest": "Newest"
+    },
+    "popularSearches": "Popular searches:",
+    "results": {
+      "found": "{{count}} results for \"{{query}}\"",
+      "showing": "Showing {{current}} of {{total}}",
+      "noResults": "No results found",
+      "noResultsDesc": "Try different search terms or check spelling.",
+      "clearSearch": "Clear search",
+      "loadMore": "Load More Books"
+    }
+  },
+  "dashboard": {
+    "welcome": "Hello, {{name}}! 👋",
+    "subtitle": "Here's a summary of your reading activity",
+    "stats": {
+      "totalBooks": "Total Books",
+      "totalBooksDesc": "in your library",
+      "readBooks": "Books Read",
+      "readBooksDesc": "completed",
+      "readingNow": "Reading Now",
+      "readingNowDesc": "in progress",
+      "favorites": "Favorites",
+      "favoritesDesc": "marked"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "empty": {
+        "title": "Your library is empty",
+        "description": "Start by adding some books to your collection",
+        "action": "Add Books"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "searchBooks": "Search New Books",
+      "viewLibrary": "View My Library",
+      "importExcel": "Import from Excel"
+    }
+  },
+  "library": {
+    "title": "My Library",
+    "subtitle": "{{count}} books in your collection",
+    "searchPlaceholder": "Search in your library...",
+    "allCategories": "All categories ({{count}})",
+    "addBooks": "Add Books",
+    "importExcel": "Import Excel",
+    "empty": {
+      "title": "Your library is empty",
+      "description": "Start by adding some books to your personal collection",
+      "searchBooks": "Search Books",
+      "importExcel": "Import from Excel"
+    },
+    "noResults": {
+      "title": "No books found",
+      "bySearch": "Try different search terms",
+      "byCategory": "No books in this category",
+      "clearSearch": "Clear search"
+    },
+    "results": {
+      "found": "{{count}} book{{plural}} found for \"{{query}}\"",
+      "books": "{{count}} book{{plural}}"
+    }
+  },
+  "books": {
+    "categories": {
+      "toRead": "To Read",
+      "reading": "Reading",
+      "read": "Read",
+      "favorites": "Favorites",
+      "wishlist": "Wishlist"
+    },
+    "actions": {
+      "addToLibrary": "Add to Library",
+      "markAsReading": "Mark as Reading",
+      "markAsRead": "Mark as Read",
+      "addToFavorites": "Add to Favorites",
+      "viewDetails": "View Details",
+      "adding": "Adding...",
+      "selectCategory": "Select category",
+      "optionalNotes": "Notes (optional)",
+      "notesPlaceholder": "Add your notes about this book..."
+    },
+    "info": {
+      "pages": "pages",
+      "reviews": "reviews",
+      "year": "year",
+      "rating": "rating",
+      "noDescription": "No description available",
+      "noCover": "No cover"
+    },
+    "messages": {
+      "added": "Book added!",
+      "addedDesc": "\"{{title}}\" has been added to your library."
+    }
+  },
+  "import": {
+    "title": "Import Books from Excel",
+    "subtitle": "Upload an Excel or CSV file to add multiple books to your library at once",
+    "instructions": {
+      "title": "Instructions",
+      "format": {
+        "title": "📋 File format:",
+        "csv": "• CSV files (recommended)",
+        "excel": "• Excel files (.xlsx, .xls)",
+        "size": "• Maximum 10MB size"
+      },
+      "columns": {
+        "title": "📚 Available columns:",
+        "required": "• Title (required)",
+        "optional": "• Author, Description, Category",
+        "metadata": "• Publisher, Year, Pages, ISBN",
+        "personal": "• Notes, Review, Rating"
+      },
+      "note": "Custom categories will be created automatically if they don't exist. You can use both Spanish and English names for columns.",
+      "downloadTemplate": "Download CSV Template"
+    },
+    "upload": {
+      "title": "Upload File",
+      "description": "Drag your file here or click to select it",
+      "selectFile": "Select file",
+      "supports": "Supports CSV, Excel (.xlsx, .xls)",
+      "browse": "Browse files",
+      "processFile": "Process File",
+      "changeFile": "Change File",
+      "processing": "Processing..."
+    },
+    "processing": {
+      "title": "Processing file...",
+      "validating": "Validating file...",
+      "analyzing": "Analyzing data...",
+      "importing": "Importing categories...",
+      "books": "Importing books...",
+      "completed": "Import completed!"
+    },
+    "preview": {
+      "title": "Data Preview",
+      "description": "First 5 books of {{total}} found",
+      "total": "Total: {{count}} books",
+      "columns": "Columns: {{count}}"
+    },
+    "results": {
+      "success": "Import Completed",
+      "error": "Import Error",
+      "booksImported": "Books imported",
+      "categoriesCreated": "Categories created",
+      "errors": "Errors",
+      "viewLibrary": "View My Library",
+      "importAnother": "Import Another File",
+      "tryAgain": "Try Again"
+    },
+    "messages": {
+      "success": "Import successful!",
+      "successDesc": "{{books}} books and {{categories}} new categories have been imported.",
+      "error": "Import error",
+      "templateDownloaded": "Template downloaded",
+      "templateDesc": "Check your downloads folder to find the CSV template."
+    }
+  },
+  "categories": {
+    "default": {
+      "toRead": "To Read",
+      "reading": "Reading",
+      "read": "Read",
+      "favorites": "Favorites",
+      "wishlist": "Wishlist"
+    },
+    "actions": {
+      "create": "Create Category",
+      "edit": "Edit Category",
+      "delete": "Delete Category"
+    }
+  },
+  "errors": {
+    "general": "An unexpected error occurred",
+    "network": "Connection error. Check your internet.",
+    "notFound": "The requested resource was not found",
+    "unauthorized": "You don't have permission for this action",
+    "validation": "Please check the entered data"
+  },
+  "quickSearches": [
+    "contemporary fiction",
+    "bestsellers 2024",
+    "science fiction",
+    "historical novel",
+    "self-help",
+    "biographies",
+    "psychological thriller",
+    "classic literature"
+  ]
+}
